@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans";
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    background-repeat: no-repeat;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    height: 535px;
+    border-radius: 23px;
+    background-color: white;
+    margin-top: 148px;
+    padding: 0 24px;
+    overflow-y: auto;
+}
+.lines{
+    border-bottom: 1px solid #E8E8EA;
+}
+.img1{
+    position: absolute;
+    top: 40px;
+}
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+    color: #1E1F36;
+    margin-top: 132px;
+    margin-bottom: 40px;
+    margin-left: 106px;
+}
+h2{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: normal;
+    font-style: normal;
+    color: #4B4C5F;
+    margin-top: 20px;
+}
+h2:hover{
+    color: #F47B56;
+    cursor: pointer;
+}
+p{
+    width: 250px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    font-style: normal;
+    color: #787887;
+    display: none;
+}
+.img2{
+    width: 8px;
+    height: 4px;
+    position: relative;
+    top: -20px;
+    left: 270px;
+}
+.lines .act p{
+    display: block;
+}
+.lines .act .img2{
+    transform: rotate(180deg);
+}
+
+.lines .act h2{
+    font-weight: 700;
+
+}
+@media screen and (min-width: 800px) {
+    .box{
+        width: 920px;
+        height: 510px;
+        padding-right: 70px;
+        padding-left: 450px;
+        background-image: url(assets/Path\ Copy.svg);
+        background-repeat: no-repeat;
+        background-position: -60px 67px;
+    }
+    .img1{
+        width: 470px;
+        height: 360px;
+        position: absolute;
+        left: 132px;
+        top: 200px;
+    }
+    h1{
+        margin-top: 65px;
+        margin-left: 0;
+    }
+    
+}
